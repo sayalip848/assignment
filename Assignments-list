@@ -1,0 +1,35 @@
+Problem Statements:
+
+job 1. Install httpd and tree
+
+job 2. Remove httpd and tree
+
+job 3. Install httpd, start the service and deploy the index.html to apache httpd and write this script in jenkins only on custom workspce
+
+job 4. From github master branch clone index.html using plugin and then deploy to apache httpd on custom workspce
+
+job 5. from private github repo clone index.html and deploy to apache httpd and then restart the service and any new changes to github needs to be deployed on apache httpd and then it should restart the service.
+
+Job 6. github repo index.html, dev.html any new changes needs to be immediatly cloned and deployed to apache httpd do this with poll SCM and web-hook 
+
+Job 7. gameoflife project in github, clone and build .war using maven and deploy war to second ec2 m/c.
+
+Job 8. stop and start 2 ec2 instances in different region at a given time.
+
+Job 9. in github repo we have 3 branches master(index.html), dev(index.html), qa(index.html), so any changes happens to index.html in any branch it should override and deploy it to httpd using web-hook.
+
+Job 10. we have jenkins master and jenkins slave we need to compile and deploy gameoflife on slave.
+
+Job 11. In github repo we have 3 branches master, 22Q1, 22Q2. deploye master on buil-in, 22Q1 on slave2, 22Q2 in slave3 and whenever git is getting update it should deploy the latest changes.
+
+Job 12. stage1-install httpd, stage2-start service, stage3- deploye to httpd
+
+Job 13. compile on master and deploy it to slave using Declarative pipeline 
+
+Job 14. checkout, complie and deploy it on slave using Declarative pipeline
+
+Job 15. In github repo we have 3 branches master, 22Q1, 22Q2. deploye master on buil-in, 22Q1 on slave2, 22Q2 in slave3 using declarative pipeline and it should immediately trigger when new changes checkin
+
+Job 16. In github repo we have 3 branches master, 22Q1, 22Q2. deploye master on buil-in, 22Q1 on slave2, 22Q2 in slave3 using multibranch pipeline and it should immediately trigger when new changes checkin
+ 
+
